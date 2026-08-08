@@ -3,7 +3,7 @@
 An AI-driven product evaluation terminal that analyzes video game pitches against historical Steam market data to determine commercial viability. 
 
 ## 🚀 Live Demo
-**[[Insert your Vercel URL here](https://steam-investment-simulator.vercel.app/)]**
+**[(https://steam-investment-simulator.vercel.app/)]**
 
 ## 📋 Overview
 Greenlight acts as an automated AI Product Manager for game publishers. It takes a natural-language game pitch, extracts core mechanics and genres, and cross-references them against a backend dataset of Steam market association rules to output a data-backed investment verdict.
