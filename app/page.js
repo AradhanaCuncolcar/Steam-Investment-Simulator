@@ -110,7 +110,7 @@ function mulberry32(seed) {
   };
 }
 
-const CONFIDENCE_THRESHOLD = 55;
+const CONFIDENCE_THRESHOLD = 70;
 
 const GENRE_KEYWORDS = [
   'roguelike', 'deckbuilder', 'platformer', 'shooter', 'rpg', 'puzzle',
