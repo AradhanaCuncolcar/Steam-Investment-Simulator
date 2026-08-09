@@ -652,18 +652,18 @@ function SignalMeter({ score, tone }) {
   const axisMarks = [0, 25, 50, 75, 100];
 
   return (
-    <div>
+    <div className="w-full">
       <div
-        className="flex gap-[3px]"
+        className="flex w-full gap-[3px]"
         role="img"
         aria-label={`Market confidence signal: ${score} out of 100`}
       >
         {Array.from({ length: segments }).map((_, i) => {
           const isFilled = i < filled;
           return (
-            <<motion.div
+            <motion.div
               key={i}
-              className="h-7 flex-1 border-[2px]" 
+              className="h-7 flex-1 border-[2px]"
               style={{
                 borderColor: isFilled ? accent : 'var(--line-dim)',
                 backgroundColor: isFilled ? accent : 'transparent',
