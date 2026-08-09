@@ -661,9 +661,9 @@ function SignalMeter({ score, tone }) {
         {Array.from({ length: segments }).map((_, i) => {
           const isFilled = i < filled;
           return (
-            <motion.div
+            <<motion.div
               key={i}
-              className="h-7 w-[9px] border-[2px]"
+              className="h-7 flex-1 border-[2px]" 
               style={{
                 borderColor: isFilled ? accent : 'var(--line-dim)',
                 backgroundColor: isFilled ? accent : 'transparent',
